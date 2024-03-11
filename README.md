@@ -2,7 +2,14 @@
 
 ### gitleaks
 
-TODO
+
+SafetyNet API key is leaked:
+
+```
+jadx/sources/org/telegram/messenger/BuildVars.java#L33
+
+        SAFETYNET_KEY = "AIzaSyDqt8P-7F7CPCseMkOiVRgb1LY8RN1bvH8";
+```
 
 ### apkurlgrep
 
@@ -10,11 +17,11 @@ NSTR.
 
 ### Snyk SAST
 
-TODO
+Waiting for results.
 
 ### jadx
 
-TODO
+NSTR.
 
 ## Commands
 

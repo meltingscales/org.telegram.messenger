@@ -1,0 +1,22 @@
+[
+ {
+  "Description": "Generic API Key",
+  "StartLine": 33,
+  "EndLine": 33,
+  "StartColumn": 20,
+  "EndColumn": 66,
+  "Match": "KEY = \"AIzaSyDqt8P-7F7CPCseMkOiVRgb1LY8RN1bvH8\"",
+  "Secret": "AIzaSyDqt8P-7F7CPCseMkOiVRgb1LY8RN1bvH8",
+  "File": "jadx/sources/org/telegram/messenger/BuildVars.java",
+  "SymlinkFile": "",
+  "Commit": "7ed8b711552239ed31f319d8f5d300bff2164572",
+  "Entropy": 4.8557897,
+  "Author": "Henry Post",
+  "Email": "henryfbp@gmail.com",
+  "Date": "2024-03-11T21:37:57Z",
+  "Message": "decompile",
+  "Tags": [],
+  "RuleID": "generic-api-key",
+  "Fingerprint": "7ed8b711552239ed31f319d8f5d300bff2164572:jadx/sources/org/telegram/messenger/BuildVars.java:generic-api-key:33"
+ }
+]
