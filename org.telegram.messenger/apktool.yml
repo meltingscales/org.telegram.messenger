@@ -1,0 +1,79 @@
+version: 2.9.3
+apkFileName: org.telegram.messenger.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 44649
+  versionName: 10.9.1
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+  androidsupportmultidexversion.txt: 8
+  billing.properties: 8
+  builddef.lst: 8
+  common.properties: 8
+  firebase-abt.properties: 8
+  firebase-annotations.properties: 8
+  firebase-appindexing.properties: 8
+  firebase-common.properties: 8
+  firebase-components.properties: 8
+  firebase-config.properties: 8
+  firebase-datatransport.properties: 8
+  firebase-encoders-json.properties: 8
+  firebase-encoders-proto.properties: 8
+  firebase-encoders.properties: 8
+  firebase-iid-interop.properties: 8
+  firebase-installations-interop.properties: 8
+  firebase-installations.properties: 8
+  firebase-measurement-connector.properties: 8
+  firebase-messaging.properties: 8
+  image.properties: 8
+  isoparser-default.properties: 8
+  language-id.properties: 8
+  play-services-auth-api-phone.properties: 8
+  play-services-auth-base.properties: 8
+  play-services-auth.properties: 8
+  play-services-base.properties: 8
+  play-services-basement.properties: 8
+  play-services-clearcut.properties: 8
+  play-services-cloud-messaging.properties: 8
+  play-services-fido.properties: 8
+  play-services-flags.properties: 8
+  play-services-identity.properties: 8
+  play-services-location.properties: 8
+  play-services-maps.properties: 8
+  play-services-mlkit-subject-segmentation.properties: 8
+  play-services-phenotype.properties: 8
+  play-services-safetynet.properties: 8
+  play-services-stats.properties: 8
+  play-services-tasks.properties: 8
+  play-services-vision-common.properties: 8
+  play-services-vision.properties: 8
+  play-services-wallet.properties: 8
+  play-services-wearable.properties: 8
+  transport-api.properties: 8
+  transport-backend-cct.properties: 8
+  transport-runtime.properties: 8
+  version.txt: 8
+  vision-common.properties: 8
+  vision-interfaces.properties: 8
+  com/google/android/search/verification/client/R.java: 8
+  fabric/com.stripe.stripe-android.properties: 8
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- assets/dexopt/baseline.prof
+- wav
+- mp3

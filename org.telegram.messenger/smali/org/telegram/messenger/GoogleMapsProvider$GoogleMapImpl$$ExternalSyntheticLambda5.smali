@@ -1,0 +1,33 @@
+.class public final synthetic Lorg/telegram/messenger/GoogleMapsProvider$GoogleMapImpl$$ExternalSyntheticLambda5;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/google/android/gms/maps/GoogleMap$OnMyLocationChangeListener;
+
+
+# instance fields
+.field public final synthetic f$0:Landroidx/core/util/Consumer;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/core/util/Consumer;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lorg/telegram/messenger/GoogleMapsProvider$GoogleMapImpl$$ExternalSyntheticLambda5;->f$0:Landroidx/core/util/Consumer;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onMyLocationChange(Landroid/location/Location;)V
+    .locals 1
+
+    iget-object v0, p0, Lorg/telegram/messenger/GoogleMapsProvider$GoogleMapImpl$$ExternalSyntheticLambda5;->f$0:Landroidx/core/util/Consumer;
+
+    invoke-interface {v0, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
+
+    return-void
+.end method
