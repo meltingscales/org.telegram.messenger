@@ -17,7 +17,7 @@ NSTR.
 
 ### Snyk SAST
 
-Waiting for results.
+- A few SQL injection vulnerabilities, use of AES CBC, and a few other mediums.
 
 ### jadx
 
